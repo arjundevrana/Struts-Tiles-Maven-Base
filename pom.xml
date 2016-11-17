@@ -10,6 +10,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<tiles.version>2.0.6</tiles.version>
 		<java.version>1.8</java.version>
+		<guava.version>11.0</guava.version>
 		<man.compile.version>3.5.1</man.compile.version>
 		<mvn.war.version>3.0.0</mvn.war.version>
 	</properties>
@@ -50,7 +51,15 @@
 			<artifactId>struts2-tiles-plugin</artifactId>
 			<version>${struts2.version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+
 	</dependencies>
+
 	<build>
 		<testSourceDirectory>src/main/test</testSourceDirectory>
 		<plugins>
