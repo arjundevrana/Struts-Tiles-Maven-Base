@@ -6,11 +6,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
-		<struts2.version>2.1.6</struts2.version>
+		<struts2.version>2.5.31</struts2.version>
 		<log4j.version>1.2.17</log4j.version>
 		<tiles.version>2.0.6</tiles.version>
 		<java.version>1.8</java.version>
-		<guava.version>11.0</guava.version>
+		<guava.version>32.0.0-android</guava.version>
 		<man.compile.version>3.5.1</man.compile.version>
 		<mvn.war.version>3.0.0</mvn.war.version>
 	</properties>
